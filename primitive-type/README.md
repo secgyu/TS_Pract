@@ -2,7 +2,7 @@
 
 ## 1. 다음 변수들의 타입을 지정해주세요
 
-```
+```ts
 let userName; // 예: 이름
 let userAge; // 예: 나이
 let isAdmin; // 예: 관리자 여부
@@ -14,7 +14,7 @@ isAdmin = true;
 
 ## 2. 아래 변수들에 적절한 타입과 초기값을 지정하세요.
 
-```
+```ts
 // 변수 선언과 초기값 지정
 let productName; // 상품 이름
 let productPrice; // 상품 가격
@@ -26,13 +26,13 @@ console.log(`상품명: ${productName}, 가격: ${productPrice}, 재고 여부: 
 
 ## 3. 두 숫자를 더하는 함수를 작성하고, 함수의 매개변수와 반환값에 타입을 지정하세요.
 
-```
+```ts
 console.log(addNumbers(5, 3));
 ```
 
 ## 4. 주어진 값을 받아 문자열로 변환하는 함수를 작성하세요. 값이 null 또는 undefined라면 "값이 없습니다"를 반환합니다
 
-```
+```ts
 function stringifyValue(value) {
   // 여기에 구현
 }
@@ -45,7 +45,7 @@ console.log(stringifyValue(undefined)); // "값이 없습니다"
 
 ## 5. 아래 함수는 두 값을 비교하여 결과를 반환합니다. 느슨한 동등성(==)과 엄격 동등성(===)의 차이를 이해하고, 함수의 동작 결과를 예측하세요.
 
-```
+```ts
 function compareValues(a: unknown, b: unknown): string {
   if (a === b) {
     return "엄격한 동등성";
@@ -66,7 +66,7 @@ console.log(compareValues(42, 42)); // ?
 
 ## 6. 주어진 값이 원시 타입인지 아닌지 확인하는 함수를 작성하세요.
 
-```
+```ts
 function isPrimitive(value: unknown): boolean {
   // 여기에 구현
 }
